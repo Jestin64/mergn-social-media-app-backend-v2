@@ -3,7 +3,7 @@ import * as nodeExternals from "webpack-node-externals";
 
 export const config = {
     name: 'src',
-    entry: [path.join(__dirname, './src/server.js')],
+    entry: [path.join(__dirname, './src/server.ts')],
     target: "node",
     devtool: false,
     output: {
